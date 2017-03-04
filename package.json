@@ -1,0 +1,15 @@
+{
+  "name": "grid-embed-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server src -p 8000 -d false"
+  },
+  "author": "",
+  "license": "ISC"
+}

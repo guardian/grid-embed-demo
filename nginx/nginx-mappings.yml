@@ -1,0 +1,4 @@
+name: grid-embed-demo
+mappings:
+  - prefix: grid-embed-demo
+    port: 8000

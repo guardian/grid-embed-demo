@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Embed Demo</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+    <button type="button" class="button" id="pick-image">Pick image</button>
+
+    <template id="grid-image-template">
+        <img class="grid-image">
+    </template>
+
+    <template id="grid-modal-template">
+        <div class="modal">
+            <div class="modal__content">
+                <div class="modal__header">
+                    <button type="button" class="button modal__dismiss">Close</button>
+                </div>
+                <div class="modal__body">
+                    <iframe frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="main.js"></script>
+</body>
+</html>
