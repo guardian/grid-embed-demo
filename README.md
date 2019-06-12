@@ -28,18 +28,7 @@ In this demo, we:
 
 ## Setup
 
-- Checkout [dev-nginx](https://github.com/guardian/dev-nginx)
-- Setup nginx [nginx-mappings](./nginx/nginx-mappings.yml)
-
-```shell
-/path/to/dev-nginx/setup-app.rb /path/to//grid-embed-demo/nginx/nginx-mappings.yml
-```
-
-- Install node modules:
-
-```shell
-npm install
-```
+Run [`./script/setup`](./script/setup)
 
 ## Usage
 
